@@ -17,7 +17,7 @@ app.listen(port, () => {
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Connected Test"
+    message: "Connected"
   });
 });
 
