@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/streams", (req, res) => {
-  fetch("https://api.twitch.tv/kraken/games/top/", {
+  fetch("https://api.twitch.tv/kraken/streams/top/", {
     method: "GET",
     headers: {
       Accept: "application/vnd.twitchtv.v5+json",
